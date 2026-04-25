@@ -139,27 +139,45 @@
   content: '';
   position: absolute;
   bottom: -44px;
-  left: 3%;
-  right: 3%;
-  height: 1.5px;
+  left: 0;
+  right: 0;
+  height: 4px;
   background: linear-gradient(
     to right,
-    transparent,
-    var(--section-color, var(--border)) 25%,
-    var(--section-color, var(--border)) 75%,
-    transparent
+    transparent 0%,
+    var(--section-color, var(--border)) 10%,
+    var(--section-color, var(--border)) 90%,
+    transparent 100%
   );
-  opacity: 0.35;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 0 18px var(--section-color, transparent);
+  opacity: 0.75;
 }
 
 .section-header {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 18px;
-  padding-bottom: 11px;
-  border-bottom: 2px solid var(--border);
+  margin-bottom: 20px;
+  padding: 12px 16px 13px;
+  border-bottom: 3px solid var(--section-color, var(--border));
+  border-radius: 8px 8px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    130deg,
+    var(--section-color, transparent) 0%,
+    transparent 65%
+  );
+  opacity: 0.1;
+  pointer-events: none;
+  border-radius: 8px 8px 0 0;
 }
 
 .section-dot {
@@ -170,11 +188,19 @@
 }
 
 .section-label {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: 800;
   letter-spacing: -0.02em;
   flex: 1;
   min-width: 0;
+}
+
+.section-label.editable {
+  color: var(--section-color);
+}
+
+.section-label.editable-input {
+  color: var(--text);
 }
 
 .section-actions {
