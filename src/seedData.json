@@ -1,0 +1,346 @@
+{
+  "sections": [
+    {
+      "id": "s1",
+      "label": "Exterior body",
+      "colorKey": "exterior",
+      "cards": [
+        {
+          "id": "c1",
+          "title": "Skin — face",
+          "sub": "Hydration, barrier protection, and cell turnover are the core goals",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Gentle pH-balanced cleanser morning and evening; moisturizer with ceramides or hyaluronic acid; SPF 30+ any time outdoors" },
+            { "id": "r2", "freq": "w", "text": "Chemical exfoliant 1–2x (AHA or BHA — gentler and more effective than physical scrubs); eye cream if addressing fine lines" },
+            { "id": "r3", "freq": "m", "text": "Retinol or retinoid treatment (start low, 0.025–0.05%) — the most evidence-backed ingredient for collagen and skin aging" },
+            { "id": "r4", "freq": "s", "text": "Dermatologist visit for full skin check — note any new, changing, or asymmetric spots" }
+          ]
+        },
+        {
+          "id": "c2",
+          "title": "Skin — body",
+          "sub": "Neglected relative to face care — same principles apply",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Moisturize immediately after shower while skin is damp (seals hydration); body oil or lotion with shea or glycerin" },
+            { "id": "r2", "freq": "w", "text": "Dry brushing or exfoliating scrub on legs, arms, back — promotes circulation and removes dead skin buildup" },
+            { "id": "r3", "freq": "m", "text": "Full-body mole check using the ABCDE rule: Asymmetry, Border, Color, Diameter >6mm, Evolution — photograph to track changes over time" },
+            { "id": "r4", "freq": "s", "text": "Full-body skin check with dermatologist; more frequent if many moles or family history of melanoma" }
+          ]
+        },
+        {
+          "id": "c3",
+          "title": "Feet",
+          "sub": "High-load, high-neglect — issues compound quickly without maintenance",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Foot roller or lacrosse ball (2–3 min/foot); rich foot cream on heels and dry areas before bed" },
+            { "id": "r2", "freq": "w", "text": "Pumice stone on damp skin; check between toes for dryness or fungal signs; toe splay and intrinsic foot exercises" },
+            { "id": "r3", "freq": "m", "text": "Deep callus care or pedicure; nail trim straight across to prevent ingrowth" },
+            { "id": "r4", "freq": "s", "text": "Assess footwear wear patterns and replace worn athletic shoes — worn-out soles silently degrade gait and joint loading" }
+          ]
+        },
+        {
+          "id": "c4",
+          "title": "Hands & nails",
+          "sub": "Hands age visibly — hydration and sun protection matter here too",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Hand cream after washing (frequent washing strips skin); SPF on hands if outdoors — one of the fastest-aging areas" },
+            { "id": "r2", "freq": "w", "text": "Nail trim and filing; cuticle oil to prevent cracking and hangnails; check nails for color or texture changes" },
+            { "id": "r3", "freq": "s", "text": "Note any changes in nail ridging, pitting, or discoloration — can indicate thyroid, iron, or fungal issues worth investigating" }
+          ]
+        },
+        {
+          "id": "c5",
+          "title": "Hair & scalp",
+          "sub": "Scalp health underlies hair health — most hair concerns start at the root",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "2-min scalp massage (fingertips, not nails) — stimulates follicle circulation; rosemary oil application has clinical support for hair density" },
+            { "id": "r2", "freq": "w", "text": "Shampoo 2–3x depending on activity level; conditioner on lengths; check hairline and part for density changes" },
+            { "id": "r3", "freq": "m", "text": "Scalp oil treatment overnight (jojoba, rosemary, or castor); photograph hairline year-over-year to detect gradual changes" },
+            { "id": "r4", "freq": "s", "text": "Discuss hair thinning with dermatologist if progressing — early intervention is far more effective than late-stage treatment" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "label": "Eyes, ears, mouth & nose",
+      "colorKey": "sensory",
+      "cards": [
+        {
+          "id": "c1",
+          "title": "Eyes",
+          "sub": "Screen fatigue and dry eye are the dominant concerns in desk workers",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Preservative-free lubricating drops as needed; 20-20-20 rule — every 20 min, look 20 ft away for 20 sec; warm screen tone (night shift mode) reduces strain" },
+            { "id": "r2", "freq": "w", "text": "Warm compress on eyelids 5 min — clears meibomian glands and improves tear film quality, reducing chronic dry eye" },
+            { "id": "r3", "freq": "s", "text": "Comprehensive eye exam including dilated retinal check; note any new floaters or flashes immediately — warrants same-day evaluation" }
+          ]
+        },
+        {
+          "id": "c2",
+          "title": "Teeth & gums",
+          "sub": "Oral health is a direct predictor of cardiovascular and metabolic health",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Brush 2x with soft bristle brush (2 min); floss once daily; tongue scraper to reduce oral bacteria" },
+            { "id": "r2", "freq": "w", "text": "Oil pulling with coconut oil (10–15 min) — supports reduction in gingival bacteria and plaque; check gum line for recession" },
+            { "id": "r3", "freq": "s", "text": "Professional cleaning every 6 months; discuss night guard if any jaw tension, grinding, or morning headaches" }
+          ]
+        },
+        {
+          "id": "c3",
+          "title": "Ears",
+          "sub": "Self-cleaning system — over-intervention is the most common mistake",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Clean outer ear with damp cloth only — no cotton swabs inside canal; use hearing protection at concerts, power tools, or loud events" },
+            { "id": "r2", "freq": "m", "text": "Hydrogen peroxide drops if fullness or buildup (1–2 drops, tilt and drain); monitor headphone volume — stay under 80% for extended use" },
+            { "id": "r3", "freq": "s", "text": "Hearing test every 2–3 years from age 40; see ENT promptly for any tinnitus, muffling, or sudden change" }
+          ]
+        },
+        {
+          "id": "c4",
+          "title": "Nasal & sinus",
+          "sub": "Dry air and allergens are the main culprits — simple interventions help a lot",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Bedroom humidifier (45–55% humidity); saline nasal spray in dry or allergy-heavy seasons" },
+            { "id": "r2", "freq": "w", "text": "Neti pot or Navage nasal irrigation — especially during allergy season; clean device thoroughly between uses" },
+            { "id": "r3", "freq": "s", "text": "Track allergy patterns year to year; consider allergy testing if recurring sinus congestion is affecting sleep quality" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "label": "Structural: joints, spine, posture",
+      "colorKey": "structural",
+      "cards": [
+        {
+          "id": "c1",
+          "title": "Posture & spine",
+          "sub": "Desk work is the single biggest structural threat in this lifestyle",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Alternate sit/stand every 45–60 min; 5-min thoracic opener before and after desk sessions (doorway stretch, cat-cow, band pull-aparts)" },
+            { "id": "r2", "freq": "w", "text": "Dead hang from pull-up bar (30–60 sec) for spinal decompression; dedicated hip flexor stretch series — sitting shortens these significantly" },
+            { "id": "r3", "freq": "m", "text": "Audit workstation — monitor height, chair depth, keyboard angle; side-profile photo to check for head-forward posture drift" },
+            { "id": "r4", "freq": "s", "text": "Sports medicine or PT check-in to catch postural asymmetries before they become structural problems" }
+          ]
+        },
+        {
+          "id": "c2",
+          "title": "Mobility & flexibility",
+          "sub": "Flexibility is the first fitness quality lost after 35 without deliberate maintenance",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "10-min morning mobility flow targeting hips, thoracic spine, ankles, and wrists — the highest-ROI daily habit at this age" },
+            { "id": "r2", "freq": "w", "text": "Dedicated yoga or deep stretch session (30+ min); posterior chain focus — hamstrings, glutes, piriformis tend to be chronically tight in desk workers" },
+            { "id": "r3", "freq": "m", "text": "Benchmark range of motion — hip hinge, squat depth, shoulder flexion, thoracic rotation; note any regression early" }
+          ]
+        },
+        {
+          "id": "c3",
+          "title": "Joints & tendons",
+          "sub": "Tendons adapt 10x slower than muscle — the most under-managed tissue in active people",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Joint warm-up before any training — wrist circles, shoulder CARs, hip 90/90; do not skip as you age" },
+            { "id": "r2", "freq": "w", "text": "Eccentric loading work (slow negatives on pull-ups, Nordic curls, single-leg calf raises) — gold standard for tendon health" },
+            { "id": "r3", "freq": "m", "text": "Collagen supplement with vitamin C (10–15g, 30–45 min pre-workout) — supports tendon collagen synthesis when timed this way" },
+            { "id": "r4", "freq": "s", "text": "Knee, shoulder, and elbow check — note crepitus or pain onset patterns before they progress to structural damage" }
+          ]
+        },
+        {
+          "id": "c4",
+          "title": "Pelvic floor & core",
+          "sub": "Foundational for spine health, organ support, and longevity — relevant to all genders",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Diaphragmatic breathing (360° rib expansion, not chest) — resets pelvic floor and core coordination; effective during desk work" },
+            { "id": "r2", "freq": "w", "text": "Anti-rotation core work — dead bug, bird dog, pallof press — builds spinal stability more effectively than crunches or sit-ups" },
+            { "id": "r3", "freq": "s", "text": "Pelvic floor PT baseline assessment — especially post-partum for women; also relevant for anyone with history of heavy lifting or high-impact sport" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "label": "Internal systems",
+      "colorKey": "internal",
+      "cards": [
+        {
+          "id": "c1",
+          "title": "Sleep",
+          "sub": "The most powerful recovery and anti-aging tool available — chronically undervalued",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Consistent wake time (even weekends); blackout curtains or sleep mask; cool room (65–68°F); no screens 30 min before bed" },
+            { "id": "r2", "freq": "w", "text": "Review sleep quality patterns if tracking — alcohol, late meals, and stress are the top three disruptors in this life stage" },
+            { "id": "r3", "freq": "s", "text": "Discuss sleep quality honestly with your doctor; consider a sleep study if snoring, or waking unrefreshed despite adequate hours" }
+          ]
+        },
+        {
+          "id": "c2",
+          "title": "Gut health",
+          "sub": "A diverse, plant-rich diet is already optimal — maintain and monitor",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Aim for 30+ plant species per week; include fermented foods regularly — kimchi, sauerkraut, tempeh, yogurt, kefir" },
+            { "id": "r2", "freq": "w", "text": "Note digestion signals — bloating, regularity, and energy after meals are real gut health indicators" },
+            { "id": "r3", "freq": "s", "text": "First colonoscopy at 45 (or earlier with family history); microbiome test if chronic fatigue or mood issues are present" }
+          ]
+        },
+        {
+          "id": "c3",
+          "title": "Hormonal & metabolic",
+          "sub": "Testosterone, estrogen, thyroid, and insulin sensitivity all shift meaningfully around 40",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Resistance training sessions (even 20–30 min) are the most powerful lever for preserving hormone balance and muscle mass at this age" },
+            { "id": "r2", "freq": "w", "text": "Track body composition trends — waist-to-height ratio is a more meaningful metabolic marker than weight alone" },
+            { "id": "r3", "freq": "s", "text": "Full panel: sex hormones (total + free), thyroid (TSH, T3, T4), fasting glucose, HbA1c, vitamin D, iron, and full micronutrient profile" }
+          ]
+        },
+        {
+          "id": "c4",
+          "title": "Cardiovascular",
+          "sub": "Zone 2 aerobic capacity is the strongest single predictor of longevity",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "w", "text": "150 min Zone 2 cardio (conversational pace, nasal breathing) — cycling, hiking, and brisk walking all qualify; plus 1–2 higher-intensity sessions" },
+            { "id": "r2", "freq": "m", "text": "Note resting heart rate trend — gradual improvement indicates improving fitness; rising baseline is an early stress or illness signal" },
+            { "id": "r3", "freq": "s", "text": "Blood pressure check; lipid panel; VO2 max test at 40 as a longevity baseline; EKG if any family history of cardiac events" }
+          ]
+        },
+        {
+          "id": "c5",
+          "title": "Nutrition optimization",
+          "sub": "Flexitarian diet is strong — small strategic additions close the remaining gaps",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Creatine monohydrate (3–5g) — strong evidence for muscle preservation, cognitive function, and recovery in 40+ adults regardless of diet type" },
+            { "id": "r2", "freq": "d", "text": "Adequate protein — 0.7–1g per lb of bodyweight; plant sources require intentional combining to hit complete amino acid profiles" },
+            { "id": "r3", "freq": "s", "text": "Annual blood panel already in place — let results drive supplementation; adjust year-to-year based on documented trends" }
+          ]
+        },
+        {
+          "id": "c6",
+          "title": "Stress & nervous system",
+          "sub": "Chronic stress silently accelerates most forms of physical and cognitive aging",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Physiological sigh (double inhale through nose, long slow exhale) — fastest evidence-based nervous system downregulation; 2–3 cycles is enough" },
+            { "id": "r2", "freq": "w", "text": "One genuine recovery activity — sauna, nature walk, breathwork, or meditation; passive screen time does not qualify as nervous system recovery" },
+            { "id": "r3", "freq": "s", "text": "Honest stress audit; cortisol saliva panel if chronic fatigue or stubborn weight gain persists despite good diet and exercise habits" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "label": "Proactive cancer & disease screening",
+      "colorKey": "cancer",
+      "cards": [
+        {
+          "id": "c1",
+          "title": "Skin cancer checks",
+          "sub": "Most treatable when caught early — self-monitoring bridges annual derm visits",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "m", "text": "Full-body self-check using ABCDE rule — Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolution; use a mirror or partner for back and scalp" },
+            { "id": "r2", "freq": "m", "text": "Photograph any suspicious or existing moles with consistent lighting — side-by-side comparison reveals evolution invisible in single checks" },
+            { "id": "r3", "freq": "s", "text": "Full-body dermatologist skin check annually; more frequently with fair skin, many moles, significant UV history, or family history of melanoma" }
+          ]
+        },
+        {
+          "id": "c2",
+          "title": "Breast health",
+          "sub": "Self-familiarity is the foundation of early detection",
+          "genderTag": "women",
+          "rows": [
+            { "id": "r1", "freq": "m", "text": "Breast self-exam 5–7 days after period ends (when tissue is least dense); look and feel for lumps, skin dimpling, nipple changes, or asymmetry" },
+            { "id": "r2", "freq": "s", "text": "Clinical breast exam at each annual well-woman visit; discuss mammogram start date with doctor — guidelines vary (40–45 depending on risk factors)" }
+          ]
+        },
+        {
+          "id": "c3",
+          "title": "Testicular health",
+          "sub": "Peak incidence in 20s–40s — most curable cancer when found early",
+          "genderTag": "men",
+          "rows": [
+            { "id": "r1", "freq": "m", "text": "Self-exam after a warm shower (relaxed tissue); roll each testicle gently between fingers — check for any hard lump, swelling, heaviness, or size change" },
+            { "id": "r2", "freq": "s", "text": "Discuss prostate health with doctor at 40; PSA baseline at 40–45 especially with family history; prostate exam timeline depends on individual risk profile" }
+          ]
+        },
+        {
+          "id": "c4",
+          "title": "Colorectal health",
+          "sub": "Third most common cancer — highly preventable with screening",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "High-fiber, plant-diverse diet is already protective — continue prioritizing legumes, whole grains, and cruciferous vegetables" },
+            { "id": "r2", "freq": "w", "text": "Note any sustained changes in bowel habits, stool color (dark/black or blood), or unexplained fatigue — worth flagging early" },
+            { "id": "r3", "freq": "s", "text": "First colonoscopy at 45; at 40 with family history of colorectal cancer; stool DNA test (Cologuard) is an option between scopes" }
+          ]
+        },
+        {
+          "id": "c5",
+          "title": "Cervical health",
+          "sub": "Highly preventable — regular screening catches pre-cancerous changes",
+          "genderTag": "women",
+          "rows": [
+            { "id": "r1", "freq": "s", "text": "Pap smear every 3 years (ages 21–65); co-test with HPV every 5 years (ages 30–65) is an alternative; discuss scheduling with OB-GYN" },
+            { "id": "r2", "freq": "s", "text": "Well-woman visit annually regardless of Pap schedule — covers pelvic exam, STI screening if relevant, and general reproductive health" }
+          ]
+        },
+        {
+          "id": "c6",
+          "title": "General annual screenings",
+          "sub": "Baseline checks that apply to all adults entering their 40s",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "s", "text": "Blood pressure, resting heart rate, fasting glucose, HbA1c, full lipid panel, liver enzymes, kidney function (eGFR, creatinine)" },
+            { "id": "r2", "freq": "s", "text": "Full micronutrient and hormone panel — document year-over-year trends, not just single-point snapshots" },
+            { "id": "r3", "freq": "s", "text": "Dental cleaning x2/year; eye exam x1/year; hearing test every 2–3 years; bone density (DEXA) scan baseline at 40–45" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "label": "Cognitive & mental health",
+      "colorKey": "cognitive",
+      "cards": [
+        {
+          "id": "c1",
+          "title": "Brain & cognition",
+          "sub": "Processing speed peaks at ~35 — neuroplasticity and maintenance are the goals from here",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Novel learning (language, instrument, new skill domains) — novelty is the primary driver of neuroplasticity; physical exercise is the #1 evidence-based cognitive maintenance tool" },
+            { "id": "r2", "freq": "w", "text": "Meaningful social connection beyond family — social isolation is one of the strongest modifiable risk factors for cognitive decline and dementia" },
+            { "id": "r3", "freq": "s", "text": "Note any subjective changes in word retrieval, memory, or focus — establishing a personal baseline now makes future comparison meaningful" }
+          ]
+        },
+        {
+          "id": "c2",
+          "title": "Mental & emotional health",
+          "sub": "Career + family stress is a well-documented inflection point for long-term mental health",
+          "genderTag": null,
+          "rows": [
+            { "id": "r1", "freq": "d", "text": "Even 10 min of unstructured solitude (walk, sit outside, no phone) — small consistent decompression matters more than occasional big resets" },
+            { "id": "r2", "freq": "w", "text": "One activity purely for personal enjoyment, outside of family and work obligation; protect it as a non-negotiable" },
+            { "id": "r3", "freq": "s", "text": "Honest mental health check-in — with a therapist, a trusted partner, or both; normalize it as maintenance, not crisis response" }
+          ]
+        }
+      ]
+    }
+  ]
+}
