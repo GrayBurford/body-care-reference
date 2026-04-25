@@ -8,7 +8,7 @@ const FREQ = {
   d: { label: 'Daily', color: '#16a34a' },
   w: { label: 'Weekly', color: '#2563eb' },
   m: { label: 'Monthly', color: '#9333ea' },
-  s: { label: 'Seasonal', color: '#c2410c' },
+  s: { label: 'Yearly/ad-hoc', color: '#c2410c' },
 }
 const FREQ_KEYS = ['d', 'w', 'm', 's']
 
@@ -166,7 +166,7 @@ function SectionBlock({ section, onUpdate, onDelete, onAddCard, onUpdateCard, on
   const color = SECTION_COLORS[section.colorKey] || '#6b7280'
 
   return (
-    <div className="section-block" id={`section-${section.id}`}>
+    <div className="section-block" id={`section-${section.id}`} style={{ '--section-color': color }}>
       <div className="section-header">
         <span className="section-dot" style={{ background: color }} />
         <EditableText
