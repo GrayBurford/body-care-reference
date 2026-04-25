@@ -166,7 +166,7 @@ function SectionBlock({ section, onUpdate, onDelete, onAddCard, onUpdateCard, on
   const color = SECTION_COLORS[section.colorKey] || '#6b7280'
 
   return (
-    <div className="section-block">
+    <div className="section-block" id={`section-${section.id}`}>
       <div className="section-header">
         <span className="section-dot" style={{ background: color }} />
         <EditableText
@@ -226,6 +226,33 @@ function SectionBlock({ section, onUpdate, onDelete, onAddCard, onUpdateCard, on
         <button className="btn-add btn-add-card" onClick={onAddCard}>+ Add card</button>
       </div>
     </div>
+  )
+}
+
+function Sidebar({ sections }) {
+  function scrollTo(id) {
+    document.getElementById(`section-${id}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  return (
+    <nav className="sidebar">
+      <div className="sidebar-inner">
+        <p className="sidebar-heading">Sections</p>
+        <ul className="sidebar-list">
+          {sections.map(section => {
+            const color = SECTION_COLORS[section.colorKey] || '#6b7280'
+            return (
+              <li key={section.id}>
+                <button className="sidebar-link" onClick={() => scrollTo(section.id)}>
+                  <span className="sidebar-dot" style={{ background: color }} />
+                  <span>{section.label}</span>
+                </button>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
+    </nav>
   )
 }
 
@@ -299,26 +326,38 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Body Care Reference</h1>
-        <button className="btn-ghost" onClick={resetData}>Reset to defaults</button>
+        <div className="header-content">
+          <h1>Body Care Reference</h1>
+          <p className="app-subtitle">Evidence-based health maintenance for the long game</p>
+          <div className="header-dots">
+            {COLOR_KEYS.map(key => (
+              <span key={key} className="header-dot" style={{ background: SECTION_COLORS[key] }} />
+            ))}
+          </div>
+        </div>
+        <button className="btn-reset-header" onClick={resetData}>Reset to defaults</button>
       </header>
-      <main>
-        {sections.map(section => (
-          <SectionBlock
-            key={section.id}
-            section={section}
-            onUpdate={changes => updateSection(section.id, changes)}
-            onDelete={() => deleteSection(section.id)}
-            onAddCard={() => addCard(section.id)}
-            onUpdateCard={(cardId, changes) => updateCard(section.id, cardId, changes)}
-            onDeleteCard={cardId => deleteCard(section.id, cardId)}
-            onAddRow={cardId => addRow(section.id, cardId)}
-            onUpdateRow={(cardId, rowId, changes) => updateRow(section.id, cardId, rowId, changes)}
-            onDeleteRow={(cardId, rowId) => deleteRow(section.id, cardId, rowId)}
-          />
-        ))}
-        <button className="btn-add btn-add-section" onClick={addSection}>+ Add section</button>
-      </main>
+
+      <div className="app-body">
+        <Sidebar sections={sections} />
+        <main>
+          {sections.map(section => (
+            <SectionBlock
+              key={section.id}
+              section={section}
+              onUpdate={changes => updateSection(section.id, changes)}
+              onDelete={() => deleteSection(section.id)}
+              onAddCard={() => addCard(section.id)}
+              onUpdateCard={(cardId, changes) => updateCard(section.id, cardId, changes)}
+              onDeleteCard={cardId => deleteCard(section.id, cardId)}
+              onAddRow={cardId => addRow(section.id, cardId)}
+              onUpdateRow={(cardId, rowId, changes) => updateRow(section.id, cardId, rowId, changes)}
+              onDeleteRow={(cardId, rowId) => deleteRow(section.id, cardId, rowId)}
+            />
+          ))}
+          <button className="btn-add btn-add-section" onClick={addSection}>+ Add section</button>
+        </main>
+      </div>
     </div>
   )
 }
