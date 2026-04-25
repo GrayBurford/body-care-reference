@@ -317,12 +317,6 @@ export default function App() {
     }))
   }
 
-  function resetData() {
-    if (window.confirm('Reset all data to defaults? This cannot be undone.')) {
-      setSections(seedData.sections)
-    }
-  }
-
   return (
     <div className="app">
       <header className="app-header">
@@ -335,7 +329,6 @@ export default function App() {
             ))}
           </div>
         </div>
-        <button className="btn-reset-header" onClick={resetData}>Reset to defaults</button>
       </header>
 
       <div className="app-body">
